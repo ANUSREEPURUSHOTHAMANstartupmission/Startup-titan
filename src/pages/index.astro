@@ -1,0 +1,54 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+import About from '../components/about.astro';
+
+import Service from '../components/service.astro';
+
+import Divc from '../components/divcomponent.astro';
+
+import Apply from '../components/Apply.astro';
+
+import Divone from '../components/divone.astro';
+
+
+
+
+
+---
+
+<Layout  title="Kerala Startup Mission">
+	<main class="h-full flex flex-col container flex-wrap justify-between" >
+	
+  	<div class="absolute -z-20 bg-cover bg-center bg-no-repeat w-full h-2/3 top-0 left-0" style="background-image:url('/img/bg.jpeg')">
+		<h1 class="absolute lg:text-9xl text-7xl font-bold text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            Startup Titan</h1>
+	</div>  
+	</main>
+	<section>
+		
+	</section>
+	<section>
+		<div class="mt-96 pt-72">
+			<About></About>
+		</div>
+	</section>
+
+	<section>
+		<div class="py-24">
+			<Service></Service>
+		</div>
+	</section>
+
+	<section>
+		<div class="py-6">
+			<Divc></Divc>
+		</div>
+	</section>
+
+	<section>
+		<div class="py-6">
+			<Apply></Apply>
+		</div>
+	</section>
+</Layout>
